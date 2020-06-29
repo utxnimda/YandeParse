@@ -2,6 +2,7 @@ import urllib
 import urllib.request
 import re
 import time
+import os
 
 import globalValue as GVAL
 import commonFunction as CFUN
@@ -54,12 +55,12 @@ def Dowload(urlPhoto, filename, count):
 
 def DowloadImg(urlPhoto, namePhoto, key):
 
-    savePath = GVAL.GetV("rootPath") + os.sep + GVAL.GetV("imgDir") + os.sep + GVAL.GetV("keyType") + os.sep + key 
-    print(savePath)
+    savePath = GVAL.GetV("rootPath") + os.sep + GVAL.GetV("imgDir") + os.sep + str(GVAL.GetV("keyType")) + os.sep + str(key) 
+    #print(savePath)
     
     CFUN.ChkDir(savePath)
 
-    filename = GetSaveFileName(urlPhoto, namePhoto)
+    filename = CFUN.GetSaveFileName(urlPhoto, namePhoto)
     fileFullname = savePath + os.sep + filename
 
     if not GVAL.GetV("dlExist") and os.path.exists(fileFullname):

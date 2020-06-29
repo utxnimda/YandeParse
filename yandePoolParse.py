@@ -171,12 +171,7 @@ def StartParse():
             CFUN.ChkCloseFile(GVAL.GetSuccFile())
             CFUN.ChkCloseFile(GVAL.GetFailFile())
             return
-        except Exception as e:
-            CFUN.PrintExt("Exception")
-            CFUN.ChkCloseFile(GVAL.GetAddrFile())
-            CFUN.ChkCloseFile(GVAL.GetSuccFile())
-            CFUN.ChkCloseFile(GVAL.GetFailFile())
-            return
+
         
     CFUN.PrintExt("Finish")
                 
