@@ -11,7 +11,6 @@ import globalValue as GVAL
 import yandeTagParse as YDTP
 import yandePoolParse as YDPP
 import yandeIDParse as YDIP
-import yandeFileParse as YDFP
 
 #配置表文件名
 
@@ -20,7 +19,7 @@ def Main():
 
     GVAL.InitBase()
     
-    mode = GVAL.GetIntCfg("mode")
+    mode = GVAL.GetVInt("mode")
 
     if mode == 0:
         YDTP.StartParse()

@@ -1,7 +1,7 @@
 cn           |1
-mode         |-1
+mode         |1
 maxParsePage |20
-download     |0
+download     |1
 clear        |1
 clearpool    |1
 addrsamefile |0
