@@ -1,0 +1,5 @@
+keyType      |PoolID
+urlPoolTag   |pool%3A
+poolType     |2
+startPool    |6666
+endPool      |6667

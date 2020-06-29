@@ -1,0 +1,29 @@
+cn           |1
+mode         |-1
+maxParsePage |20
+download     |0
+clear        |1
+clearpool    |1
+addrsamefile |0
+dlExist      |0
+tryTimes     |20
+
+urlPre       |https://yande.re/post?page=
+urlImgPre    |https://yande.re/post/show/
+urlFilePre   |https://files.yande.re/image/
+urlTag       |&tags=
+
+rootPath     |F:\\Yande
+#rootPath    |/home/data/Yande
+
+logDir       |Log
+succPre      |success
+failPre      |fail
+logExt       |log
+
+addrDir      |Address
+addrPre      |addr
+addrExt      |txt
+addrSep      ||
+
+imgDir       |image

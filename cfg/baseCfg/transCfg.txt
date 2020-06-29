@@ -1,0 +1,23 @@
+PIP
+Please input a pool id
+请输入一个PoolID
+
+PISP
+Please input a start pool id
+请输入起始PoolID
+
+PIEP
+Please input a end pool id
+请输入结束PoolID
+
+PPID
+Pool ID parse
+需要爬取的PoolID有
+
+PPR
+Pool id parse range from
+爬取的PoolID范围为
+
+PIVI
+Please Input valid pool id
+请输入有效PoolID
